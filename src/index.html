@@ -15,27 +15,28 @@
   </head>
 
   <body>
-    <h1>Image Search App</h1>
-    <form id="search-form">
-      <input
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-      <button type="submit">Search</button>
-    </form>
-    <div class="gallery" id="gallery"></div>
-    <button
-      type="button"
-      id="load-more"
-      class="load-more"
-      style="display: none"
-    >
-      Load more
-    </button>
+    <div class="form">
+      <h1>Image Search App</h1>
+      <form id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div class="gallery" id="gallery"></div>
+      <button
+        type="button"
+        id="load-more"
+        class="load-more"
+        style="display: none"
+      >
+        Load more
+      </button>
+    </div>
 
     <script type="module" src="index.js"></script>
-    <include src="./partials/example.html"></include>
   </body>
 </html>
