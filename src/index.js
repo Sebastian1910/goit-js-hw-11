@@ -125,10 +125,10 @@ function displayImages(data) {
     const info = document.createElement('div');
     info.classList.add('info');
     info.innerHTML = `
-            <p class="info-item"><b>Likes</b>: ${hit.likes}</p>
-            <p class="info-item"><b>Views</b>: ${hit.views}</p>
-            <p class="info-item"><b>Comments</b>: ${hit.comments}</p>
-            <p class="info-item"><b>Downloads</b>: ${hit.downloads}</p>
+            <p class="info-item"><b>Likes</b> ${hit.likes}</p>
+            <p class="info-item"><b>Views</b> ${hit.views}</p>
+            <p class="info-item"><b>Comments</b> ${hit.comments}</p>
+            <p class="info-item"><b>Downloads</b> ${hit.downloads}</p>
         `;
 
     // Dodaj sekcję informacji do karty
